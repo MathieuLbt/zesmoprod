@@ -1,0 +1,146 @@
+/* CSS DE LA PAGE DE CONTACT OU AUSSI APPELE FORMULAIRE */
+.figuImage{
+    overflow: hidden;
+    width: 250px;
+    height: 500px;  
+}
+.figContact{
+    text-align: center;
+    width: 250px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    line-height: 20px;
+}
+div img{ 
+    margin-top: 50px;
+    border-radius: 5px
+}
+form{
+    display: inline-block;
+    margin-top: 25px;
+    padding-left: 15px;
+    margin-bottom: 70px;
+}
+input{
+    width: 600px;
+    padding: 10px 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+.names{
+    display: flex;
+    margin: 25px 0px;   
+}
+.message{
+    margin: 25px 0px;   
+}
+textarea{
+    width: 600px;
+    height: 250px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: solid 1px white;
+    color: #000;
+}
+button {
+	background-color:#ffffff;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display: block;
+	color: #1e89cc;
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:14px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 5px 30px;
+}
+button:hover {
+}
+button:active {
+	position:relative;
+	top:1px;
+    background-color: #1e89cc;
+    color: white;
+    border:1px solid #1e89cc; 
+}
+h1{
+    font-family:'Roboto Condensed', sans-serif;
+    color: #1e89cc;
+}
+#message{
+    font-family:'Roboto Condensed', sans-serif;
+    color: #f43760;
+}
+@media screen and (max-width: 1050px){
+    .figuImage{
+        display: none;
+    }
+    form{
+        width: 90%;
+        padding-top: 40px;
+        
+    }
+    textarea{
+        width: 90%;
+    }
+    input{
+        width: 90%;
+        margin: auto;
+    }
+    #contact{
+        display: initial;
+        margin: auto;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 780px){
+    .figuImage{
+        display: none;  
+    }
+    form{
+        width: 90%;
+        padding-top: 40px;
+    }
+    textarea{
+        width: 90%;
+    }
+    input{
+        width: 90%;
+        margin: auto;
+    }
+    #contact{
+        display: initial;
+        margin: auto;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 580px){
+    .figuImage{
+        display: none;
+    }
+    form{
+        width: 90%;  
+        padding-top: 40px;
+    }
+    textarea{
+        width: 90%;
+    }
+    input{
+        width: 90%;
+        margin: auto;
+    }
+    #contact{
+        display: initial;
+        margin: auto;
+        text-align: center;
+    }
+    #logo{
+        
+    }
+}

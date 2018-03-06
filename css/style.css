@@ -1,0 +1,142 @@
+/* CSS Accueil */
+section a{
+    text-decoration: none;
+}
+
+#disco{
+    width: 300px;
+    height: 450px;
+    background: url('../img/home/jpg/onde.jpg') no-repeat;
+    text-align: center;
+    padding-top: 375px;
+    text-transform: uppercase;
+    color: #f43760;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    margin-top: 15px;
+  }
+ #disco:hover{ 
+    background: url('../img/home/gif/ondehome.gif') no-repeat; 
+    color: #313131;
+  }
+#perso{
+    width: 300px;
+    height: 450px;
+    background: url('../img/home/jpg/table_mixage_home.jpg') no-repeat;
+    text-align: center;
+    padding-top: 375px;
+    text-transform: uppercase;
+    color: #1e89cc;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    margin-top: 15px;
+  }
+ #perso:hover {
+    background: url('../img/home/gif/table_mixage_home.gif') no-repeat;
+     color: #313131;
+  }
+#filmo{
+    width: 300px;
+    height: 450px;
+    background: url('../img/home/jpg/camera_homes.jpg') no-repeat;
+    text-align: center;
+    padding-top: 375px;
+    text-transform: uppercase;
+    color: #34bf4a;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-size: 1.2em;
+    letter-spacing: 3px; 
+    margin-top: 15px;
+  }
+ #filmo:hover {
+    background: url('../img/home/gif/camera_homes.gif') no-repeat;
+     color: #313131;
+  }
+@media screen and (max-width: 1050px) {
+    #index{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+  } 
+     article{
+    margin: auto;
+  }
+}
+@media screen and (max-width: 780px) {
+    #index{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+  } 
+     article{
+    margin: auto;
+  }
+}
+@media screen and (max-width: 580px) {
+    #index{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+  } 
+     article{
+    margin: auto;
+  }
+}
+/* CSS Filmo */
+div img{
+    margin-top: 50px;
+    display:inline-block;
+    width: 300px;
+    height: 200px;
+}
+
+@media screen and (max-width: 1050px){
+
+    #filmorespo{
+    margin: auto;
+    margin-top: 20px;
+    }
+    
+    #fdp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    }
+
+}
+@media screen and (max-width: 780px){
+
+    
+    #filmorespo{
+    margin: 0 auto;
+        padding: 0;
+    }
+    
+    
+    #fdp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 580px){
+
+    
+    #filmorespo{
+    margin: 0 auto;
+        padding: 0;
+    }
+    #video{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+}
